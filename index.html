@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="index.css" />
+</head>
+<body>
+    <div id="black">
+        <p>Lucky Machine</p>
+
+        <form id = "form">
+            <input type="number" 
+            id="percent"
+            min=1
+            placeholder="확률을 입력해주세요"
+            >
+
+            <input type="number" 
+            id="count" 
+            min=1 
+            placeholder="돌릴 횟수를 입력해주세요"
+            >
+
+            <input type="submit" 
+            value="돌리기" 
+            id="roll"
+            >
+
+        </form>
+
+        <div id="white">
+
+            <h1 id = "true count">0</h1>
+
+            <h2>뽑힌 횟수</h2>
+
+        </div>
+    </div>
+
+    <script src="index.js">
+
+    </script>
+    
+</body>
+</html>
